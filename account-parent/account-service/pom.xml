@@ -16,27 +16,6 @@
   </properties>
   <dependencies>
   
-   <dependency>
-  	<groupId>${project.groupId}</groupId>
-  	<artifactId>account-email</artifactId>
-  	<version>${project.version}</version>
-  </dependency>
-  
-  <dependency>
-  	<groupId>${project.groupId}</groupId>
-  	<artifactId>account-persist</artifactId>
-  	<version>${project.version}</version>
-  </dependency>
-
-  
-  
-  <dependency>
-  	<groupId>${project.groupId}</groupId>
-  	<artifactId>account-captcha</artifactId>
-  	<version>${project.version}</version>
-  </dependency>
-  
-  
   <dependency>
   	<groupId>com.icegreen</groupId>
   	<artifactId>greenmail</artifactId>
@@ -44,9 +23,21 @@
   	<scope>test</scope>
   </dependency>
   
-  
-  
-  
+  <dependency>
+  	<groupId>${project.groupId}</groupId>
+  	<artifactId>account-email</artifactId>
+  	<version>${project.version}</version>
+  </dependency>
+   <dependency>
+  	<groupId>${project.groupId}</groupId>
+  	<artifactId>account-persist</artifactId>
+  	<version>${project.version}</version>
+  </dependency>
+   <dependency>
+  	<groupId>${project.groupId}</groupId>
+  	<artifactId>account-captcha</artifactId>
+  	<version>${project.version}</version>
+  </dependency>
   
   
   
